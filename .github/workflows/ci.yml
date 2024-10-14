@@ -741,7 +741,7 @@ jobs:
           - name: "TOOLSET=clang COMPILER=clang++ CXXSTD=03,11 Job 42"
             buildtype: "boost"
             packages: ""
-            os: "macos-10.15"
+            os: "macos-11"
             cxx: "clang++"
             sources: ""
             llvm_os: ""
@@ -751,10 +751,10 @@ jobs:
             compiler: "clang++"
             cxxstd: "03,11"
             job_uuid: "92cfceb39d"
-          - name: "TOOLSET=clang COMPILER=clang++ CXXSTD=14,1z Job 43"
+          - name: "TOOLSET=clang COMPILER=clang++ CXXSTD=14,17 Job 43"
             buildtype: "boost"
             packages: ""
-            os: "macos-10.15"
+            os: "macos-11"
             cxx: "clang++"
             sources: ""
             llvm_os: ""
@@ -762,7 +762,7 @@ jobs:
             xcode_version: 11.7
             toolset: "clang"
             compiler: "clang++"
-            cxxstd: "14,1z"
+            cxxstd: "14,17"
             job_uuid: "0286dd552c"
 
     runs-on: ${{ matrix.os }}
